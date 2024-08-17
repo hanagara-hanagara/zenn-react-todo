@@ -1,8 +1,6 @@
-import { useState, useEffect } from 'react';
 import TodoList from './components/TodoList';
 import AddTodoForm from './components/AddTodoForm';
 import TodoSummary from './components/TodoSummary';
-import { Todo } from './types/todo';
 import { useTodoList } from './hooks/useTodoList';
 
 function App() {
